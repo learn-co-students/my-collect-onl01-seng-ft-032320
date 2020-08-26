@@ -7,3 +7,8 @@ def my_collect(students)
   end
    students2
 end
+
+
+# calling the block into the method would look like this:
+# students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
+# my_collect(students) {|student| student}
